@@ -130,6 +130,7 @@
         android:layout_height="wrap_content"
         android:text="ADD NEW USER"
         android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
