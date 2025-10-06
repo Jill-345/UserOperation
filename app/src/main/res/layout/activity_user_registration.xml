@@ -7,4 +7,83 @@
     android:layout_height="match_parent"
     tools:context=".UserRegistration">
 
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="252dp"
+        android:layout_height="48dp"
+        android:background="@drawable/edittext_border"
+        android:ems="10"
+        android:hint="  Username"
+        android:inputType="text"
+        android:textColorHint="#9E9898"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.462" />
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="252dp"
+        android:layout_height="48dp"
+        android:background="@drawable/edittext_border"
+        android:ems="10"
+        android:hint="  First name"
+        android:inputType="text"
+        android:textColorHint="#9E9898"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.553" />
+
+    <EditText
+        android:id="@+id/editTextText5"
+        android:layout_width="252dp"
+        android:layout_height="48dp"
+        android:background="@drawable/edittext_border"
+        android:ems="10"
+        android:hint="  Last name"
+        android:inputType="text"
+        android:textColorHint="#9E9898"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.642" />
+
+    <EditText
+        android:id="@+id/editTextText6"
+        android:layout_width="252dp"
+        android:layout_height="48dp"
+        android:background="@drawable/edittext_border"
+        android:ems="10"
+        android:hint="  Password"
+        android:inputType="text"
+        android:textColorHint="#9E9898"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.73" />
+
+    <EditText
+        android:id="@+id/editTextText7"
+        android:layout_width="252dp"
+        android:layout_height="48dp"
+        android:background="@drawable/edittext_border"
+        android:ems="10"
+        android:hint="  Re-type password"
+        android:inputType="text"
+        android:textColorHint="#9E9898"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.815" />
 </androidx.constraintlayout.widget.ConstraintLayout>
