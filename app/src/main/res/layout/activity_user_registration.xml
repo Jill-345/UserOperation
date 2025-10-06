@@ -8,38 +8,6 @@
     tools:context=".UserRegistration">
 
     <EditText
-        android:id="@+id/editTextText"
-        android:layout_width="252dp"
-        android:layout_height="48dp"
-        android:background="@drawable/edittext_border"
-        android:ems="10"
-        android:hint="  Username"
-        android:inputType="text"
-        android:textColorHint="#9E9898"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.899"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.153" />
-
-    <EditText
-        android:id="@+id/editTextText4"
-        android:layout_width="252dp"
-        android:layout_height="48dp"
-        android:background="@drawable/edittext_border"
-        android:ems="10"
-        android:hint="  First name"
-        android:inputType="text"
-        android:textColorHint="#9E9898"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.553" />
-
-    <EditText
         android:id="@+id/editTextText5"
         android:layout_width="252dp"
         android:layout_height="48dp"
@@ -126,14 +94,63 @@
         app:layout_constraintVertical_bias="0.073" />
 
     <LinearLayout
-        android:layout_width="196dp"
-        android:layout_height="110dp"
+        android:layout_width="385dp"
+        android:layout_height="56dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.372"
+        app:layout_constraintHorizontal_bias="0.384"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.365"></LinearLayout>
+        app:layout_constraintVertical_bias="0.177">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="  Username"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editTextText"
+            android:layout_width="256dp"
+            android:layout_height="48dp"
+            android:background="@drawable/edittext_border"
+            android:ems="10"
+            android:hint="  Username"
+            android:inputType="text"
+            android:textColorHint="#9E9898" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="384dp"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.288">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="  First Name"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editTextText4"
+            android:layout_width="257dp"
+            android:layout_height="48dp"
+            android:background="@drawable/edittext_border"
+            android:ems="10"
+            android:hint="  First name"
+            android:inputType="text"
+            android:textColorHint="#9E9898" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
