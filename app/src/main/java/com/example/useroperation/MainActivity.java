@@ -13,7 +13,7 @@ import androidx.core.view.WindowInsetsCompat;
 public class MainActivity extends AppCompatActivity {
 
     EditText unTxt, passTxt;
-    Button logInBtn, regisBtn, CancelBtn;
+    Button logInBtn, regisBtn, cancelBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,5 +25,11 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+        unTxt = findViewById(R.id.editTextText2);
+        passTxt = findViewById(R.id.editTextText8);
+        logInBtn = findViewById(R.id.button);
+        regisBtn = findViewById(R.id.button2);
+        cancelBtn = findViewById(R.id.button3);
     }
 }
