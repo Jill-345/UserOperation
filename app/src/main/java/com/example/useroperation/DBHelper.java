@@ -82,7 +82,7 @@ public class DBHelper extends SQLiteOpenHelper{
         return uid;
     }
 
-    public void addNewRecord(String un,String fn, String ln, String course, String pass){
+    public void addNewRecord(String un,String fn, String ln, String pass){
         SQLiteDatabase db = getWritableDatabase();
         ContentValues values = new ContentValues();
         values.put(column1,getUID());
@@ -91,20 +91,33 @@ public class DBHelper extends SQLiteOpenHelper{
         values.put(column4, ln);
         values.put(column5, pass);
         values.put(column6, "NO");
+
         db.insert(tblname, null, values);
         db.close();
     }
 
-    public void editRecord(String un,String fn, String ln, String course, String pass){
+    public void editRecord(String uid, String un,String fn, String ln, String pass){
         SQLiteDatabase db = this.getWritableDatabase();
+
         ContentValues values = new ContentValues();
-        values.put(column1,getUID());
         values.put(column2, un);
         values.put(column3, fn);
         values.put(column4, ln);
         values.put(column5, pass);
         values.put(column6, "NO");
-        db.update(tblname, values,"sid=?",args);
+
+        String args[] = {uid};
+        db.update(tblname, values,"uid=?",args);
+        db.close();
+    }
+
+    public void deleteRecord(String uid){
+        SQLiteDatabase db = this.getWritableDatabase();
+
+        ContentValues values = new ContentValues();
+        values.put(column6, "YES");
+        String args[] = {uid};
+        db.update(tblname, values,"uid=?",args);
         db.close();
     }
 
