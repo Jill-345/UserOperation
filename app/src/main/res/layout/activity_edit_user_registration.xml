@@ -19,7 +19,7 @@
         app:layout_constraintVertical_bias="0.61">
 
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/textView18"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -27,7 +27,7 @@
             android:textSize="16sp" />
 
         <EditText
-            android:id="@+id/editTextText7"
+            android:id="@+id/editTextText9"
             android:layout_width="256dp"
             android:layout_height="48dp"
             android:background="@drawable/edittext_border"
@@ -49,7 +49,7 @@
         app:layout_constraintVertical_bias="0.499">
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/textView19"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -57,7 +57,7 @@
             android:textSize="16sp" />
 
         <EditText
-            android:id="@+id/editTextText6"
+            android:id="@+id/editTextText10"
             android:layout_width="255dp"
             android:layout_height="48dp"
             android:background="@drawable/edittext_border"
@@ -79,7 +79,7 @@
         app:layout_constraintVertical_bias="0.392">
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/textView20"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -87,7 +87,7 @@
             android:textSize="16sp" />
 
         <EditText
-            android:id="@+id/editTextText5"
+            android:id="@+id/editTextText11"
             android:layout_width="256dp"
             android:layout_height="48dp"
             android:background="@drawable/edittext_border"
@@ -110,14 +110,14 @@
         app:layout_constraintVertical_bias="0.76">
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/button8"
             android:layout_width="185dp"
             android:layout_height="wrap_content"
             android:drawableLeft="@android:drawable/checkbox_on_background"
             android:text="SAVE" />
 
         <Button
-            android:id="@+id/button5"
+            android:id="@+id/button9"
             android:layout_width="182dp"
             android:layout_height="wrap_content"
             android:drawableLeft="@android:drawable/btn_dialog"
@@ -125,7 +125,7 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView23"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="EDIT USER PROFILE"
@@ -150,7 +150,7 @@
         app:layout_constraintVertical_bias="0.177">
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/textView24"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -158,7 +158,7 @@
             android:textSize="16sp" />
 
         <EditText
-            android:id="@+id/editTextText"
+            android:id="@+id/editTextText12"
             android:layout_width="256dp"
             android:layout_height="48dp"
             android:background="@drawable/edittext_border"
@@ -180,7 +180,7 @@
         app:layout_constraintVertical_bias="0.284">
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/textView25"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -188,7 +188,7 @@
             android:textSize="16sp" />
 
         <EditText
-            android:id="@+id/editTextText4"
+            android:id="@+id/editTextText13"
             android:layout_width="257dp"
             android:layout_height="48dp"
             android:background="@drawable/edittext_border"

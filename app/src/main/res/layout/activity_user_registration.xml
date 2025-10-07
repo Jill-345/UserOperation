@@ -19,7 +19,7 @@
         app:layout_constraintVertical_bias="0.61">
 
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/textView13"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -49,7 +49,7 @@
         app:layout_constraintVertical_bias="0.499">
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/textView14"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -79,7 +79,7 @@
         app:layout_constraintVertical_bias="0.392">
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/textView15"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -150,7 +150,7 @@
         app:layout_constraintVertical_bias="0.177">
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/textView16"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -180,7 +180,7 @@
         app:layout_constraintVertical_bias="0.284">
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/textView17"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
