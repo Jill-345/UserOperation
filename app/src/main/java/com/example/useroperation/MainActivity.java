@@ -30,6 +30,5 @@ public class MainActivity extends AppCompatActivity {
         passTxt = findViewById(R.id.editTextText8);
         logInBtn = findViewById(R.id.button);
         regisBtn = findViewById(R.id.button2);
-        clearBtn = findViewById(R.id.button3);
     }
 }
