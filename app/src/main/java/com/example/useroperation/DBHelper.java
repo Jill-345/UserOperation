@@ -114,10 +114,8 @@ public class DBHelper extends SQLiteOpenHelper{
     public void deleteRecord(String uid){
         SQLiteDatabase db = this.getWritableDatabase();
 
-        ContentValues values = new ContentValues();
-        values.put(column6, "YES");
         String args[] = {uid};
-        db.update(tblname, values,"uid=?",args);
+        db.delete(tblname,"uid=?",args);
         db.close();
     }
 
