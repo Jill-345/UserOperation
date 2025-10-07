@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UserOperation">
         <activity
+            android:name=".sampleonly"
+            android:exported="false" />
+        <activity
             android:name=".EditUserRegistration"
             android:exported="false" />
         <activity

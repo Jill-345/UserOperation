@@ -72,7 +72,7 @@
         android:layout_width="157dp"
         android:layout_height="48dp"
         android:layout_weight="1"
-        android:text="Cancel"
+        android:text="Clear"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.858"
